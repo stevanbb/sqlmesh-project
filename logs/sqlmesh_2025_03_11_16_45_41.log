@@ -1,0 +1,7 @@
+2025-03-11 16:45:41,981 - MainThread - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.14.0, Python Version: 3.11.9, Platform: Windows-10-10.0.22621-SP0 (connection.py:423)
+2025-03-11 16:45:41,981 - MainThread - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain (connection.py:1226)
+2025-03-11 16:45:41,981 - MainThread - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity. (connection.py:1315)
+2025-03-11 16:45:43,580 - MainThread - snowflake.connector.connection - INFO - closed (connection.py:810)
+2025-03-11 16:45:43,580 - MainThread - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session (connection.py:816)
+2025-03-11 16:45:43,771 - MainThread - root - INFO - Shutting down the event dispatcher (dispatcher.py:159)
+2025-03-11 16:45:43,888 - MainThread - sqlmesh.core.analytics.dispatcher - INFO - Failed to emit events: HTTPSConnectionPool(host='analytics.tobikodata.com', port=443): Max retries exceeded with url: /v1/sqlmesh/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)'))) (dispatcher.py:138)

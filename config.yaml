@@ -1,0 +1,17 @@
+gateways:
+  dev:
+    connection:
+      type: snowflake
+      user: STEVAN.BULAJIC@ADIGLOBAL.COM
+      account: ci54900.east-us-2.privatelink
+      warehouse: WH_ADI_SQMESH
+      database: DB_ADI_SQLMESH_DEV
+      #schema: SQLMESH
+      role: ADI_IT_DATA_ENGINEER_FR
+      authenticator: externalbrowser
+ 
+default_gateway: dev
+ 
+model_defaults:
+  dialect: snowflake
+  start: 2025-02-03
