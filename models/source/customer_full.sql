@@ -5,6 +5,5 @@ MODEL (
 
 select customerid,
        customername,
-       segment,
-       country
+       segment
 from  DB_ADI_SQLMESH_DEV.SQLMESH.customers_t;
